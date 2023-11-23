@@ -12,6 +12,7 @@ Welcome to the Covid19_Data_Analytics project! This repository houses a comprehe
 - Contains screenshots of the outputs from running the SQL queries.
 4. Environment Variables (.env file):
 - Create an .env file in the root directory.
+
 DB_USER=your_postgres_username
 DB_PASSWORD=your_postgres_username
 DB_HOST=your_hostname
@@ -31,7 +32,7 @@ Add the following variables and replace placeholders with your actual credential
 
 # Additional Notes
 - Replace placeholders such as 'your_postgres_username' and 'your_postgres_password' in the Python script with your actual PostgreSQL credentials.
-- Ensure that the required Python libraries (pandas and sqlalchemy) are installed before running the script.
+- Ensure that the required Python libraries (pandas, StringIO, requests and sqlalchemy) are installed/imported before running the script.
 - Screenshots of query outputs can be found in the 'outputs' folder.
 
 Feel free to explore the SQL queries and adapt the project structure as needed for your analysis.
